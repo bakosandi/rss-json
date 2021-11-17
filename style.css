@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#rss {
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+    background-color: rgb(204, 208, 209);
+    
+}
+
+.article {
+    width: 33.33%;
+}
+
+@media screen and (max-width: 768px) {
+    .article {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 450x) {
+    .article {
+        width: 100%;
+    }
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    background-color: rgb(78, 76, 76);
+}
+
+nav ul a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+#main {
+    display: flex;
+}
+
+aside {
+    flex: 1;
+}
