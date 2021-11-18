@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <h1>This will be the login page.</h1>
-    <a href="index.html">Back</a>
+    <div id="main">
+        <form class="login" action="/">
+            <div class="inputbox">
+                <label for="email">E-mail</label>
+                <input id="email" type="email">
+            </div>
+            <div class="inputbox">
+                <label for="password">Password</label>
+                <input id="password" type="password">
+            </div>
+            <div class="inputbox">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
